@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/Tuason066/Base-Apparel-Coming-Soon](https://github.com/Tuason066/Base-Apparel-Coming-Soon)
+- Live Site URL: [https://tuason066.github.io/Base-Apparel-Coming-Soon/](https://tuason066.github.io/Base-Apparel-Coming-Soon/)
 
 ### Built with
 
