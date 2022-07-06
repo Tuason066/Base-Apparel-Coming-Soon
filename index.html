@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body class="text-primary-100 font-main text-base lg:text-xl">
+
+  <main class="grid gap-x-12 lg:grid-cols-7 mx-auto">
+    <!-- logo -->
+    <div class="lg:pt-10 lg:row-span-1 lg:col-span-4 w-11/12 lg:px-8 mx-auto py-6">
+      <img src="./images/logo.svg" alt="logo">
+    </div>
+    <!-- hero -->
+    <div class="lg:col-span-3 lg:row-span-2">
+      <picture class="text-right ml-auto">
+        <source class="w-full" media="(min-width: 1024px)" srcset="./images/hero-desktop.jpg" alt="hero">
+        <img class="w-full" src="./images/hero-mobile.jpg" alt="hero">
+      </picture>
+    </div>
+    <!-- content -->
+    <article class="lg:pt-14 lg:text-left lg:row-start-2 lg:row-end-3 lg:col-span-4 lg:mx-auto text-center w-11/12 py-16 px-8">
+      <h1 class="uppercase mb-4 tracking-space text-primary-300 font-semibold text-5xl lg:text-8xl">
+        <span class="text-primary-100 block font-light">We're</span>coming soon
+      </h1>
+      <p class="font-semibold mb-8 lg:mt-5 lg:mb-9">Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</p>
+      <form id="form" class="flex items-center border rounded-full border-gradient-300 border-r-gradient-40">
+        <div class="pl-6 pr-2 w-full">
+          <input id="email" class="md:text-sm placeholder-primary-100 w-full outline-none text-sm" type="text" placeholder="Email Address">
+        </div>
+        <div class="flex items-center">
+          <img id="error-icon" class="md:w-8 w-4 hidden" src="./images/icon-error.svg" alt="error icon">
+          <button type="submit" class="primary-btn hover:scale-110">
+            <img src="./images/icon-arrow.svg" alt="arrow icon">
+          </button>
+        </div>
+      </form>
+    </article>
+
+    <script src="./script.js"></script>
+</body>
+</html>
